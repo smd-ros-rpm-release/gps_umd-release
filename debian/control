@@ -1,0 +1,12 @@
+Source: ros-hydro-gps-common
+Section: misc
+Priority: extra
+Maintainer: Timo Roehling <timo.roehling@fkie.fraunhofer.de>
+Build-Depends: debhelper (>= 7.0.50~), ros-hydro-catkin, ros-hydro-message-filters, ros-hydro-message-generation, ros-hydro-nav-msgs, ros-hydro-roscpp, ros-hydro-sensor-msgs, ros-hydro-std-msgs
+Homepage: http://ros.org/wiki/gps_common
+Standards-Version: 3.9.2
+
+Package: ros-hydro-gps-common
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-message-runtime
+Description: GPS messages and common routines for use in GPS drivers
