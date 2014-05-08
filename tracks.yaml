@@ -29,9 +29,10 @@ tracks:
     - git-bloom-generate -y rosdebian --prefix release/:{ros_distro} :{ros_distro}
       -i :{release_inc}
     devel_branch: null
+    last_version: 0.1.7
     name: upstream
     patches: null
-    release_inc: -1
+    release_inc: '0'
     release_repo_url: ssh://git@github.com/ktossell/gps_umd-release.git
     release_tag: gps_umd-:{version}
     ros_distro: indigo
